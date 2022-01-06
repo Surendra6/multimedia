@@ -1,19 +1,30 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
+    <MultimediaLobby />
+
+    <v-btn
+      href="https://github.com/Surendra6/multimedia/tree/main"
+      target="_blank"
+      class="accent--text"
+      fab
+      large
+      bottom
+      right
+      fixed
+    >
+      <v-icon>mdi-github</v-icon>
+    </v-btn>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import MultimediaLobby from "./components/MultimediaLobby";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    MultimediaLobby,
   },
 
   data: () => ({
